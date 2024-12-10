@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "npx nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@fastify/type-provider-typebox": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.1.0",
+    "inflection": "^3.0.0",
+    "openai": "^4.76.0",
+    "random": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/inflection": "^1.13.2",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
