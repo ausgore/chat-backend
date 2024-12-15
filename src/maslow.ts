@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import random from "random";
 import { titleize } from "inflection";
 import { Message, NEEDS } from "./types";
-import config from "../config";
+import config from "./config";
 
 dotenv.config();
 
